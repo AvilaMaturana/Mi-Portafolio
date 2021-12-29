@@ -2,8 +2,42 @@
 
 :root{
     --primary-color: #351f3d;
+    --text-navbar: 'Poppins', sans-serif;
 }
 
 .bg-danger{
     background-color: var(--primary-color)!important;
+}
+
+.navbar-nav{
+    font-family: var(--text-navbar);
+    font-weight: 300;
+}
+
+.sidebar-nav ul li a{
+    text-decoration: none;
+    
+    display: block;   
+    transition: 0.5s;
+}
+
+.sidebar-nav ul li a:hover {
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.offcanvas {    
+    background-color: #617389;
+}
+
+/* @media (max-width: 579px) {
+
+    .offcanvas {    
+        padding-left: 1rem;
+    }
+    
+} */
+
+.sidebar-nav .offcanvas {
+    width: 220px;
 }
