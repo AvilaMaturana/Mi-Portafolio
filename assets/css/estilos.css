@@ -5,6 +5,12 @@
     --text-navbar: 'Poppins', sans-serif;
 }
 
+/* *{
+    border: 1px solid red;
+} */
+
+/* NABVAR */
+
 .bg-danger{
     background-color: var(--primary-color)!important;
 }
@@ -30,14 +36,41 @@
     background-color: #617389;
 }
 
-/* @media (max-width: 579px) {
-
-    .offcanvas {    
-        padding-left: 1rem;
-    }
-    
-} */
 
 .sidebar-nav .offcanvas {
     width: 220px;
 }
+
+/* HEADER */
+
+#cuerpoHeader {
+    background-image: url(../img/img-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    padding: 20% 0%;
+    
+}
+
+#cuerpoHeader .texto{
+    font-family: 'Anton', sans-serif;
+    text-shadow: 0.1em 0.1em #333;    
+}
+
+#cuerpoHeader hr{
+    color: white;
+    height: 2px;
+    width: 300px;
+}
+
+#cuerpoHeader #position{
+   background-color: rgba(97, 115, 137, 0.5);
+   padding: 2rem 0rem;   
+    
+}
+
+
+  
+
