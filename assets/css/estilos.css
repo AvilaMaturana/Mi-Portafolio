@@ -4,6 +4,7 @@
     --primary-color: #351f3d;
     --text-navbar: 'Poppins', sans-serif;
     --text-h2: 'Anton', sans-serif;
+    --secondary-color: #617389;
 }
 
 *{
@@ -67,6 +68,18 @@
     width: 300px;
 }
 
+@media (max-width: 768px){
+    #cuerpoHeader hr{        
+        width: 220px;
+    }    
+}
+
+@media (max-width: 576px){
+    #cuerpoHeader hr{        
+        width: 170px;
+    }    
+}
+
 #cuerpoHeader #position{
    background-color: rgba(0, 0, 0, 0.5);
    padding: 2rem 0rem;   
@@ -79,5 +92,13 @@
     font-family: var(--text-h2);
 }
 
-  
+  /* DISENO INDUSTRIAL */
+
+  .bg-primary {
+      background-color: var(--secondary-color)!important;
+  }
+
+  #disenoIndustrial h2 {
+      font-family: var(--text-h2);
+  }
 
