@@ -179,3 +179,8 @@
 	}
 }
 
+/* DISENOWEB */
+
+#disenoWeb h2 {
+    font-family: var(--text-h2);    
+}
