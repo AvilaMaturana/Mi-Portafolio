@@ -184,3 +184,19 @@
 #disenoWeb h2 {
     font-family: var(--text-h2);    
 }
+
+/* CONTACTO */
+
+#infoContacto{
+    border: 1px solid black;
+    margin-right: 58px;    
+}
+
+#infohabilidades{
+    border: 1px solid black;
+    
+}
+
+#contacto h2{
+    font-family: var(--text-h2);
+}
