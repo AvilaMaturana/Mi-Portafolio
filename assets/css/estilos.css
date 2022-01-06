@@ -7,9 +7,9 @@
     --secondary-color: #617389;
 }
 
-/* *{
+*{
     border: 1px solid red;
-} */
+}
 
 /* NABVAR */
 
@@ -112,6 +112,8 @@
       font-family: var(--text-h2);
   }
 
+
+
   /* DISENO INDUSTRIAL CAROUSEL */
 
   .carousel__contenedor {
@@ -174,6 +176,39 @@
 .carousel__indicadores .glider-dot.active {
 	opacity: 1;
 }
+
+#disenoIndustrial .carousel__elemento{
+    position: relative;
+    cursor: pointer;
+}
+
+#disenoIndustrial .carousel__elemento img {
+    transition: all 500ms ease-out;      
+}
+
+#disenoIndustrial .carousel__elemento .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(97, 115, 137, 0.5); 
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    font-family: var(--text-navbar);
+}
+
+#disenoIndustrial .carousel__elemento .capa h4{
+   font-weight: medium;
+   font-size: 1.375rem;
+}
+
+
+#disenoIndustrial .carousel__elemento:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 @media screen and (max-width: 800px) {
 	/* body {
