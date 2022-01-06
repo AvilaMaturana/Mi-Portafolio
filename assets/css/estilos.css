@@ -7,9 +7,9 @@
     --secondary-color: #617389;
 }
 
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 
 /* NABVAR */
 
@@ -58,8 +58,7 @@
 
 #cuerpoHeader .texto{
     font-family: 'Anton', sans-serif;
-    text-shadow: 0.2em 0.2em rgb(0, 0, 0, 0.5
-    );    
+    text-shadow: 0.2em 0.2em rgb(0, 0, 0, 0.5);    
 }
 
 #cuerpoHeader hr{
@@ -92,10 +91,21 @@
     font-family: var(--text-h2);
 }
 
+#sobreMi #textoEstudio{
+    font-family: var(--text-navbar);
+    font-weight: 300;
+}
+
+#sobreMi #textoTrabajo{
+    font-family: var(--text-navbar);
+    font-weight: 300;
+}
+
   /* DISENO INDUSTRIAL */
 
   .bg-primary {
       background-color: var(--secondary-color)!important;
+      
   }
 
   #disenoIndustrial h2 {
@@ -196,6 +206,7 @@
     background-color: rgba(97, 115, 137, 1);
     font-family: var(--text-h2);
     color: white;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
     
 }
 
@@ -207,4 +218,8 @@
 
 footer {
     background-color: var(--primary-color);
+}
+
+footer #icon a{
+    text-decoration: none;
 }
