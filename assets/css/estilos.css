@@ -7,9 +7,9 @@
     --secondary-color: #617389;
 }
 
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 
 /* NABVAR */
 
@@ -191,16 +191,17 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(97, 115, 137, 0.5); 
+    background: rgba(97, 115, 137, 0.7); 
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
     font-family: var(--text-navbar);
+    
 }
 
 #disenoIndustrial .carousel__elemento .capa h4{
    font-weight: medium;
-   font-size: 1.375rem;
+   
 }
 
 
