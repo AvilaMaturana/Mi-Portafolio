@@ -246,6 +246,12 @@
     
 }
 
+#infohabilidades .img-responsive{
+    width: 3.75rem;
+    height: auto;
+    margin: 1rem;
+}
+
 #contacto h2{
     font-family: var(--text-h2);
 }
