@@ -12,6 +12,10 @@
     border: 1px solid red;
 } */
 
+body{
+    overflow-x: hidden;
+}
+
 /* NABVAR */
 
 .bg-danger{
@@ -113,118 +117,15 @@
       font-family: var(--text-h2);
   }
 
+  #disenoIndustrial .row {
+    font-family: var(--text-navbar);
+}
+
 
 
   /* DISENO INDUSTRIAL CAROUSEL */
 
-  .carousel__contenedor {
-	position: relative;
-}
-
-.carousel__anterior,
-.carousel__siguiente {
-	position: absolute;
-	display: block;
-	width: 30px;
-	height: 30px;
-	border: none;
-	top: calc(50% - 35px);
-	cursor: pointer;
-	line-height: 30px;
-	text-align: center;
-	background: none;
-	color: #fff;
-	opacity: 20%;
-}
-
-.carousel__anterior:hover,
-.carousel__siguiente:hover {
-	opacity: 100%;
-}
-
-.carousel__anterior {
-	left: -30px;
-}
-
-.carousel__siguiente {
-	right: -30px;
-}
-
-.carousel__lista {
-	overflow: hidden;
-}
-
-.carousel__elemento {
-	text-align: center;   
-    padding: 0rem 1rem;
-}
-
-
-
-.carousel__indicadores .glider-dot {
-	display: block;
-	width: 30px;
-	height: 4px;
-	background: #fff;
-	opacity: .2;
-	border-radius: 0;
-}
-
-.carousel__indicadores .glider-dot:hover {
-	opacity: .5;
-}
-
-.carousel__indicadores .glider-dot.active {
-	opacity: 1;
-}
-
-#disenoIndustrial .carousel__elemento{
-    position: relative;
-    cursor: pointer;
-}
-
-#disenoIndustrial .carousel__elemento img {
-    transition: all 500ms ease-out;      
-}
-
-#disenoIndustrial .carousel__elemento .capa {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(97, 115, 137, 0.7); 
-    transition: all 500ms ease-out;
-    opacity: 0;
-    visibility: hidden;
-    font-family: var(--text-navbar);
-    
-}
-
-#disenoIndustrial .carousel__elemento .capa h4{
-   font-weight: medium;
-   
-}
-
-
-#disenoIndustrial .carousel__elemento:hover > .capa {
-    opacity: 1;
-    visibility: visible;
-}
-
-
-@media screen and (max-width: 800px) {
-	/* body {
-		padding: 40px 0;
-	} */
-
-	.contenido-principal {
-		flex-direction: column;
-	}
-
-	.contenido-principal > * {
-		width: 100%;
-	}
-}
+  
 
 /* DISENOWEB */
 
@@ -253,10 +154,11 @@
     font-size: 2.25rem;
 } */
 
-@media (mix-width: 768px){
-    #infoContacto h4{
-        width: auto;
-        height: 20%;
+@media (max-width: 768px){
+    #infoContacto h3{
+        width: 5%;
+        height: auto;
+        padding: 2px;
     }
 }
 
