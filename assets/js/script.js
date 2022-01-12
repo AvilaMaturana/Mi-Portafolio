@@ -33,6 +33,8 @@ window.addEventListener('load', function(){
 	});
 });
 
+
+
 var myModal = document.getElementById('myModal')
 var myInput = document.getElementById('myInput')
 
@@ -41,4 +43,15 @@ myModal.addEventListener('shown.bs.modal', function () {
 });
 
 
+// $(window).scroll(function(){
+// 	if($('#menu').offset().top > 56){
+// 		$('#menu').addClass('nuevoNav');
+// 	} else{
+// 		$('#menu').removeClass('nuevoNav');
+// 	};
+// });
 
+// window.addEventListener('scroll', function(){
+//     var nav = document.querySelector('nav');
+//     nav.classList.toggle('abajo' , window.scrollY>0);
+// });
