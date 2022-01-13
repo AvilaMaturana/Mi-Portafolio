@@ -37,35 +37,37 @@ rel="stylesheet">
 
 <body>
 
-    <div class="sidebar-nav">
-        <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top py-1">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                 <img src="assets/img/logo-web.png" class="img-fluid" alt="logo-Diego-Avila">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-start" id="offcanvasNavbar">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
-                    <li class="nav-item">
-                        <a class="nav-link active  px-4" aria-current="page" href="#">Sobre mi</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link  px-4" aria-current="page" href="#">Diseño Industrial</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link px-4" aria-current="page" href="#">Diseño web</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link px-4" aria-current="page" href="#">Contacto</a>
-                      </li>
-                </ul>        
-              </div>
-            </div>
-          </nav>
-    </div>
+   <div class="sidebar-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top py-1">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+           <img src="assets/img/logo-web.png" class="img-fluid" alt="logo-Diego-Avila">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" id="offcanvasNavbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-2">
+              <li class="nav-item">
+                  <a class="nav-link px-4" aria-current="page" href="#sobreMi">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4" aria-current="page" href="#disenoIndustrial">Diseño Industrial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4" aria-current="page" href="#disenoWeb">Diseño web</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4" aria-current="page" href="#contacto">Contacto</a>
+                </li>
+          </ul>        
+        </div>
+      </div>
+    </nav>
+</div>
 
+
+    
     <header id="cuerpoHeader" class="mt-5">
       <div class="container ">
         <div id="position" class="row my-auto">
@@ -89,9 +91,15 @@ rel="stylesheet">
         <h2 class="display-4 text-center py-3">Sobre mi</h2>
         <div class="row">
           <div class="col-md-6">
-           <div class="text-center">             
-             <i class="fas fa-graduation-cap fa-2x pe-2"></i>
-             <h3 class="textoCentro d-inline-block py-2">ESTUDIOS</h3>
+           <div class="text-center text-align-centerd-inline-block ">             
+            <div class="d-inline-block mx-auto">
+              <span class="material-icons-outlined fs-1 mx-auto">
+                library_books
+                </span>
+            </div>
+             <div class="d-inline-block mx-auto">
+              <h3 class="textoCentro d-inline-block py-1">ESTUDIOS</h3>
+             </div>
            </div>           
              <ul id="textoEstudio">
               <ol class="py-2"> Liceo Manuel Arriarán Barros (2006-2009).</ol>
@@ -102,7 +110,9 @@ rel="stylesheet">
 
           <div class="col-md-6">
             <div class="text-center">             
-              <i class="fas fa-briefcase fa-2x pe-2"></i>
+              <span class="material-icons-outlined fs-1">
+                work_outline
+                </span>
               <h3 class="textoCentro d-inline-block py-2">TRABAJOS</h3>
             </div>           
               <ul id="textoTrabajo">
@@ -360,18 +370,18 @@ rel="stylesheet">
             <span class="material-icons-outlined fs-2 pe-3">
               alternate_email
               </span>
-          <h3 class="d-inline-block py-3 fs-4" >davila.maturana@gmail.com</h3>
+          <h3 class="d-inline-block py-3 fs-5" >davila.maturana@gmail.com</h3>
           </div>       
           
           <span class="material-icons-outlined fs-2 pe-3">
             whatsapp
             </span>
-          <h3 class="d-inline-block py-3 fs-4"  >+56968180952</h3> <br>
+          <h3 class="d-inline-block py-3 fs-5"  >+56968180952</h3> <br>
 
           <span class="material-icons-outlined fs-2 pe-3">
             location_on
             </span>         
-          <span class="fs-4">San Miguel, Santiago de Chile</span>          
+          <span class="fs-5">San Miguel, Santiago de Chile</span>          
           <a href="assets/img/Curriculum Vitae Diego Ávila.pdf" download="Curriculum-Diego-Ávila" class="btn btn-default shadow bg-white rounded d-block mt-4 py-3">
             Descargar Curriculum Vitae
             </a>          
