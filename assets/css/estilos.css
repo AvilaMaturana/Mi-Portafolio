@@ -12,6 +12,7 @@
     border: 1px solid red;
 } */
 
+
 body{
     overflow-x: hidden;
 }
@@ -117,14 +118,25 @@ body{
     font-weight: 300;
 }
 
-#sobreMi .material-icons-outlined{
-    padding: 0.4rem;
-    margin: auto;
-}
+
 
 #sobreMi #logos img{
     width: 10.75rem;
     height: auto;
+}
+
+#sobreMi h3{
+    font-family: var(--text-navbar);
+    
+}
+
+#sobreMi h4{
+    font-family: var(--text-navbar);
+    font-weight: bold;
+}
+
+#sobreMi span, h3{
+    vertical-align: middle;
 }
 
   /* DISENO INDUSTRIAL */
@@ -213,6 +225,15 @@ body{
     box-shadow: 0px 3px 6px black;
 }
 
+/* BOTON */
+
+#btn-up{
+    cursor: pointer;
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    color: red;
+}
 
 /* FOOTER */
 

@@ -8,7 +8,14 @@ $(document).ready(function(){
 	window.addEventListener('scroll', function(){
 		var nav = document.querySelector('nav');
 		nav.classList.toggle('abajo' , window.scrollY>0);
+
+		document.querySelector('#btn-up').classList.toggle('d-none',window.scrollY <= 50)
+
 	});
+
+	document.querySelector('#btn-up').addEventListener('click', function(){
+		window.scrollTo(0,0);
+	})
 
 });
 
