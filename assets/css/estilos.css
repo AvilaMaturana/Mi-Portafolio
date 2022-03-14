@@ -203,10 +203,10 @@ body{
 }
 
 #infohabilidades{
-    background-color: rgba(97, 115, 137, 1);
+    /* background-color: rgba(97, 115, 137, 1); */
     font-family: var(--text-h2);
     color: white;
-    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    /* box-shadow: 3px 3px 10px rgb(0, 0, 0); */
     margin: auto 0 auto 0;
     
 }
